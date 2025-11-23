@@ -1,0 +1,10 @@
+Django>=4.2,<5.0
+djangorestframework>=3.14
+psycopg2-binary>=2.9
+django-environ>=0.10
+django-filter>=23.0
+gunicorn>=21.2
+drf-spectacular>=0.26  # Para documentación automática
+python-json-logger>=2.0 # Para logs estructurados
+whitenoise>=6.5        # Para servir estáticos en producción
+corsheaders>=4.3
